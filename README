@@ -1,0 +1,35 @@
+# Projeto 1 - Racha-Cuca
+
+Este é um jogo simples de quebra-cabeça deslizante implementado em C, utilizando a biblioteca ncurses para manipulação de terminal. O objetivo do jogo é organizar as peças numeradas em ordem crescente (independentemente da posição da peça vaiza) movendo-as para a posição correta através de uma peça vazia.
+
+## Requisitos
+
+- Sistema operacional Linux
+- Compilador C (GCC, Clang, etc.)
+- Biblioteca ncurses
+
+## Compilação e Execução
+
+Use o seguinte comando para instalar ncurses:
+
+'''
+sudo apt-get install libncurses5-dev
+'''
+
+Para compilar o código, basta executar o seguinte comando no terminal:
+
+```
+gcc projeto1.c -o puzzle_game -lncurses
+```
+
+Depois de compilado, execute o jogo com o seguinte comando:
+
+```
+./puzzle_game
+```
+
+## Como Jogar
+
+- Use as teclas de seta para mover as peças para cima, baixo, esquerda ou direita.
+- O jogo termina quando o quebra-cabeça é resolvido, ou seja, todas as peças estão em ordem crescente com a peça vazia em qualquer posição.
+- Pressione 'q' para sair a qualquer momento.
